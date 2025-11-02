@@ -6,7 +6,7 @@ build:
       # - pip install -r requirements.txt
       - python -m venv .venv
       # - cd /path/to/new/virtual/environment
-      - source.venv/bin/activate
+      - source .venv/bin/activate
       - pip install -r requirements.txt
 run:
   runtime-version: 3.8.16
